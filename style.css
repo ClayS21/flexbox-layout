@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.50em;
+}
+
+.fb {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+}
+
+.fb > div {
+    background-color: #f1f1f1;
+    color: rgb(13, 33, 107);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    flex-grow: 1;
+}
